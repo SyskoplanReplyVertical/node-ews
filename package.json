@@ -1,6 +1,6 @@
 {
   "name": "node-ews",
-  "version": "3.5.0",
+  "version": "3.6.0",
   "description": "A simple JSON wrapper for the Exchange Web Services (EWS) SOAP API",
   "main": "./index.js",
   "scripts": {
@@ -9,11 +9,11 @@
   "author": "Nicholas Marus",
   "license": "MIT",
   "dependencies": {
-    "debug": "4.1.1",
+    "@cypress/request": "^3",
+    "debug": "^4.3.4",
     "httpntlm": "~1.7.7",
     "lodash": "4.17.21",
-    "request": "^2.88.0",
-    "soap": "^0.30.0",
+    "soap": "^0.45.0",
     "tmp": "0.0.28",
     "when": "3.7.7"
   },
